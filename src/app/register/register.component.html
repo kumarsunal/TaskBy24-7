@@ -1,0 +1,89 @@
+
+
+<div class="content">
+  <form class="row g-3" [formGroup]="registerform" (ngSubmit)="submitform()">
+    <div class="col-md-12">
+      <h1 class="TextColor">Register Form</h1>
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="istname" class="form-label">First Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="istname"
+        formControlName="istname"
+        required
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="lstname" class="form-label">Last Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="lstname"
+        formControlName="lstname"
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Experience</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="Experience"
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Current Comapany</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="currentCompany"
+      />
+    </div> 
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Qualification</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="qualification"
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Year Passed</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="yearPassed"
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="email"
+      />
+    </div>
+    <div class="col-md-3 form-group">
+      <label for="inputEmail4" class="form-label">Phone</label>
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail4"
+        formControlName="phone"
+      />
+    </div>
+
+    <div class="col-md-12 text-right form-group">
+      <button type="submit" class="btn SubmitButton SubmitButtonTextColor">
+        SUBMIT
+      </button>
+    </div>
+  </form>
+</div>
+
